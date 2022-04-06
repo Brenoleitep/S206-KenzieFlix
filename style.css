@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,13 +10,15 @@ body {
 }
 
 main {
-    min-width: 1200px;
-    width: 1200px;
+    display: flex;
+    height: 700px;
+    width: 100%;
 }
 
 .container {
     display: flex;
     flex-flow: column;
+    margin: 0 auto;
 }
 
 .box {
@@ -60,8 +63,6 @@ h1 {
 }
 
 .caixa:hover{
-    border: 2px solid rgb(255, 0, 0);
-    border-radius: 10px;
     cursor: pointer;
     color: white;
 }
@@ -101,9 +102,20 @@ p {
     color: rgba(156, 156, 156, 1);
 }
 
+.legenda2 {
+    margin-top: 62px;
+}
+
 .legenda:hover{
     filter: brightness(200);
     cursor: pointer;
+}
+
+.logo1:hover {
+    width: 205px;
+    height: 205px;
+    margin-left: -21.5px;
+   
 }
 
 h5 {
