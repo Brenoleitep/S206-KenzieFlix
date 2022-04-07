@@ -19,6 +19,7 @@ main {
     display: flex;
     flex-flow: column;
     margin: 0 auto;
+    
 }
 
 .box {
@@ -30,10 +31,6 @@ main {
     height: 68px;
 }
 
-.box:hover {
-    width: 249px;
-    height: 79px;
-}
 
 h1 {
     color: white;
@@ -49,6 +46,7 @@ h1 {
     margin: 0 auto;
     list-style: none;
     margin-top: 20px;
+    
 }
 
 .caixa {
@@ -56,15 +54,34 @@ h1 {
     height: 160px;
     margin: 26px;
     border-radius: 10px;
-    margin-bottom: 136px;
+    margin-bottom: 5px;
+    background-color: #1E1E20;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.caixa2 {
+    width: 160px;
+    height: 160px;
+    margin: 26px;
+    border-radius: 10px;
+    margin-bottom: 5px;
     background-color: #1E1E20;
     justify-content: center;
     
 }
 
+
 .caixa:hover{
     cursor: pointer;
     color: white;
+    border: 2px white solid;
+}
+
+.caixa2:hover{
+    cursor: pointer;
+    color: white;
+    border: 2px white solid;
 }
 
 .botao {
@@ -94,6 +111,12 @@ h1 {
    
 }
 
+.logo1:hover {
+    width: 200px;
+    height: 200px;
+    margin-left: -21.5px;
+}
+
 p {
     margin-top: 16px;
     color: #9C9C9C;
@@ -102,20 +125,22 @@ p {
     color: rgba(156, 156, 156, 1);
 }
 
-.legenda2 {
+.legendaperfil {
     margin-top: 62px;
+}
+
+.legendaperfil:hover {
+    filter: brightness(200);
+    cursor: pointer;
+}
+
+.legenda {
+    margin-bottom: 100px;
 }
 
 .legenda:hover{
     filter: brightness(200);
     cursor: pointer;
-}
-
-.logo1:hover {
-    width: 205px;
-    height: 205px;
-    margin-left: -21.5px;
-   
 }
 
 h5 {
