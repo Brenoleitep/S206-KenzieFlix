@@ -7,21 +7,27 @@
 
 body {
     background-color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 main {
     display: flex;
-    height: 700px;
-    width: 100%;
+    width: 1280px;
+    margin: 0 auto;
+    height: 720px;
+    width: 100vw;
 }
 
+/* TODOS OS BOX */
 .container {
     display: flex;
     flex-flow: column;
-    margin: 0 auto;
+    width: 700px;
+    width: 100vw;
 
 }
 
+/* BOX LOGO */ 
 .box {
     display: flex;
     margin: 0 auto;
@@ -29,9 +35,10 @@ main {
     margin-bottom: 73px;
     width: 229px;
     height: 68px;
+    cursor: pointer;
 }
 
-
+/* QUEM ESTA ASSISTINDO */
 h1 {
     color: white;
     text-align: center;
@@ -39,33 +46,43 @@ h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 500px;
     letter-spacing: 1px;
+    margin-bottom: 41px;
 }
 
+/* LISTA UL */
 .papaicx {
     display: inline-flex;
     margin: 0 auto;
     list-style: none;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 
 }
 
-.caixa {
+/* PARTE LI */
+.list {
     width: 160px;
     height: 160px;
     margin: 26px;
     border-radius: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 136px;
+}
+
+/* FIGURE */
+.caixa {
+    width: 160px;
+    height: 160px;
     background-color: #1E1E20;
     justify-content: center;
     overflow: hidden;
 }
 
+/* ADICIONAR PERFIL: BOX */
 .caixa2 {
     width: 160px;
     height: 160px;
     margin: 26px;
     border-radius: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 16px;
     background-color: #1E1E20;
     justify-content: center;
 
@@ -82,10 +99,24 @@ h1 {
     cursor: pointer;
     color: white;
     border: 2px white solid;
-      
+
 }
 
+/* IMAGENS */
+.logo1 {
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    
+}
 
+.logo1:hover {
+    width: 205px;
+    height: 205px;
+    margin-left: -21.5px;
+}
+
+/* GERENCIAR PERFIL */
 .botao {
     margin: 0 auto;
     background-color: #000000;
@@ -106,19 +137,7 @@ h1 {
 
 }
 
-.logo1 {
-    width: 160px;
-    height: 160px;
-    border-radius: 5px;
-
-}
-
-.logo1:hover {
-    width: 200px;
-    height: 200px;
-    margin-left: -21.5px;
-}
-
+/* LEGENDAS NO GERAL */
 p {
     margin-top: 16px;
     color: #9C9C9C;
@@ -127,8 +146,9 @@ p {
     color: rgba(156, 156, 156, 1);
 }
 
+/* TXT ADICIONAR PERFIL */
 .legendaperfil {
-    margin-top: 62px;
+    margin-top: 70px;
 }
 
 .legendaperfil:hover {
@@ -136,8 +156,10 @@ p {
     cursor: pointer;
 }
 
+/* LEGENDAS ESPECIFICAS: UNDER IMAGEM */
 .legenda {
     margin-bottom: 100px;
+    margin-top: 16px;
 }
 
 .legenda:hover {
@@ -145,10 +167,11 @@ p {
     cursor: pointer;
 }
 
+/* MAIS DO ADICIONAR PERFIL */
 h5 {
     display: flex;
     border: 5.38911px solid #6F6F70;
-    margin: 50px auto;
+    margin: 55px auto;
     width: 50px;
     height: 50px;
     border-radius: 200px;
@@ -182,3 +205,10 @@ h5:hover {
     }
 
 }
+
+
+/* MINHAS DÚVIDAS: 
+- COMO OTIMIZAR HOVER DE IMAGEM
+- COMO FAZER HOVER DE IMAGEM E TEXTO ALINHADOS (ADICIONAR PERFIL ESTÁ COMO EXEMPLO)
+- COMO ALINHAR BOX GERAL NO CENTRO SEM MARGIN 0 AUTO 
+ */
